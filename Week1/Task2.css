@@ -34,8 +34,7 @@ h2{
 @media (min-width: 575px) {
     article {
       width: 550px;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 25px;
     }
   }
   
@@ -44,4 +43,5 @@ h2{
     font-size: 1.0em;
   }
 }
+
   
