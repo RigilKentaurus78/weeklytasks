@@ -1,0 +1,47 @@
+/* style for p tag */
+p{
+    color: purple;
+}
+/* style for title class */
+.title{
+    color: royalblue;
+}
+/* style for id */
+#container{
+    font-size: small;
+    border: 1px solid rgb(138, 3, 148);
+}
+/* style for image */
+img{
+  height: 500px;
+  width:  500px; 
+  /* Task 3 onwards */ 
+  /* sets limit for images */
+  max-width: 100%;
+  display: block;
+}
+/*font*/
+body {
+    font-family: Courier New, monospace;
+    font-size: 0.8em;
+  }
+
+/*style for h2 */
+h2{
+    color: slateblue;
+}
+
+@media (min-width: 575px) {
+    article {
+      width: 550px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+@media (min-width: 360px) {
+  body {
+    font-size: 1.0em;
+  }
+}
+  
